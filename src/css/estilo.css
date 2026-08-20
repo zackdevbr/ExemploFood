@@ -1,0 +1,56 @@
+:root{
+    --cor-primaria: #ff0000;
+    --cor-secundaria:  #000000;
+    --white: #ffffff
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+.item-cardapio{
+    display: flex;
+    flex-direction:row;
+    background-color: #f5c59d9c;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+span{
+    padding: 50px;
+}
+
+.btn-qtn{
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: 0px; 
+}
+
+.btn-confirmar{
+    background-color: rgb(255, 0, 0);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    border: 0px;
+}
+
+.btn-confirmar:disabled{
+    color:black;
+    background-color: rgb(0, 255, 76);
+}
+
+h2{
+    color:#ff0000;
+}
